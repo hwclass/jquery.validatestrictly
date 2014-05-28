@@ -8,18 +8,18 @@ Validates and deletes if input character value is a special char, digit or alpha
 ### usage
 <pre lang="javascript">
 <code>
-'''$('input').bind('keyup', function() {
+$('input').bind('keyup', function() {
   $(this).validateStrictly(['case1','case2', 'case3'], [{customCaseN : 'abc'}]);
-});'''
+});
 </code>
 </pre>
 
 ### usage (IE)
 <pre lang="javascript">
 <code>
-'''$('input').bind('keyup', function() {
+$('input').bind('keyup', function() {
   $(this).validateStrictly(['specialChars','numbers'], [{customCaseN : 'abc'}]);
-});'''
+});
 </code>
 </pre>
 
@@ -27,8 +27,8 @@ Validates and deletes if input character value is a special char, digit or alpha
 ### usage (Modern Browsers)
 <pre lang="javascript">
 <code>
-'''$('input').on('input', function() {
+$('input').on('input', function() {
   $(this).validateStrictly(['specialChars','numbers'], [{customCaseN : 'abc'}]);
-});'''
+});
 </code>
 </pre>
