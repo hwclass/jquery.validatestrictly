@@ -1,9 +1,7 @@
 ## jquery.validatestrictly 1.1.0
-=======================
+<i>Latest update done up to 1.1.0 : custom cases</i>
 
 A Validation Plugin for Inputs with Parameters
-
-<i>Latest update done up to 1.1.0 : custom cases</i>
 
 Validates and deletes if input character value is a special char, digit or alphabetical by every char.
 
