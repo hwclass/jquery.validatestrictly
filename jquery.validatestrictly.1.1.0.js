@@ -78,7 +78,3 @@
     return this;
   }
 })(jQuery);
-
-$('#username').on('input', function () {
-    $(this).validateStrictly(['specialChars','numbers'], [{custom : 'abc'}]);
-});
