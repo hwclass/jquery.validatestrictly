@@ -3,7 +3,7 @@
 
 A Validation Plugin for Inputs with Parameters
 
-Validates if input character value is a special char, digit or alphabetical.
+Validates and deletes if input character value is a special char, digit or alphabetical by every char.
 
 ### usage
 $('input').bind('keyup', function() {
