@@ -18,7 +18,7 @@ $('input').bind('keyup', function() {
 });
 
 
-### usage (IE)
+### usage (Modern Browsers)
 $('input').on('input', function() {
   $(this).validateStrictly(['specialChars','numbers', 'alphabetical']);
 });
