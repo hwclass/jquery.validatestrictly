@@ -18,7 +18,7 @@
  * prevents any inputs to be entered special characters, numbers or alphabetical characters
  */
 
-define([ "jquery/data", "jquery/event", "jquery/manipulation" ], function( $ ) {
+define([ "jquery/event", "jquery/manipulation" ], function( $ ) {
 
 	$.fn.validateStrictly = function (validationCases, customCases) {
 	  var validationStrings = {
