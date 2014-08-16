@@ -78,6 +78,8 @@ define([ "jquery/event", "jquery/manipulation" ], function( $ ) {
 	    }
 	  }
 	  return this;
-	}
+	};
+
+	return $;
 
 });
