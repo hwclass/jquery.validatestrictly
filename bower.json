@@ -1,0 +1,25 @@
+{
+  "name": "jquery.validatestrictly",
+  "version": "1.1.0",
+  "homepage": "https://github.com/hwclass/jquery.validatestrictly",
+  "authors": [
+    "@hwlass - harderworking.class@gmail.com"
+  ],
+  "description": "A Validation Plugin for Inputs with Parameters Stricted with Special Characters, Numbers, Alphabetical and with CustomCAses..",
+  "main": "jquery.validatestrictly.1.1.0.js",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "validate",
+    "validation",
+    "strict"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
