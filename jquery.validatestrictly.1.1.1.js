@@ -22,8 +22,9 @@
     var validationStrings = {
       specialChars: "!@#$%^&*()+=-[]\\\';,./{}|\":<>?_",
       numbers: "0123456789",
-      englishAlphabetical: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+      englishAlphabetical: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
       turkishAlphabetical: "abcçdefgğhıijklmnoöpqrsştuüvwxyzABCÇDEFGĞHIİJKLMNOÖPQRSŞTUÜVWXYZ",
+      space : ' '
     }
     var defineProp = function ( obj, key, value ){
       var config = {
