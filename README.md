@@ -5,7 +5,7 @@ A Validation Plugin for Inputs with Parameters
 
 Validates and deletes if input character value is a special char, digit or alphabetical by every char.
 
-### usage
+### usage (IE)
 <pre lang="javascript">
 <code>
 $('input').bind('keyup', function() {
@@ -14,21 +14,28 @@ $('input').bind('keyup', function() {
 </code>
 </pre>
 
-### usage (IE)
-<pre lang="javascript">
-<code>
-$('input').bind('keyup', function() {
-  $(this).validateStrictly(['specialChars','numbers'], [{customCaseN : 'abc'}]);
-});
-</code>
-</pre>
-
-
 ### usage (Modern Browsers)
 <pre lang="javascript">
 <code>
 $('input').on('input', function() {
-  $(this).validateStrictly(['specialChars','numbers'], [{customCaseN : 'abc'}]);
+  $(this).validateStrictly(['case1','case2', 'case3'], [{customCaseN : 'abc'}]);
 });
 </code>
+
+### Usage for All Cases (IE)
+<pre lang="javascript">
+<code>
+$('input').bind('input', function() {
+  $(this).validateStrictly(['specialChars','englishAlphabetical','turkishAlphabetical','space']);
+});
+</code>
+
+### Usage for All Cases (Modern Browsers)
+<pre lang="javascript">
+<code>
+$('input').on('input', function() {
+  $(this).validateStrictly(['specialChars','englishAlphabetical','turkishAlphabetical','space']);
+});
+</code>
+
 </pre>
